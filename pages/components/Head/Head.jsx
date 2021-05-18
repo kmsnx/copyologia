@@ -20,19 +20,6 @@ const Head = () => (
         <meta name='geo.position' content='50.836326;15.508455' />
         <meta name='ICBM' content='50.836326, 15.508455' />
 
-        {/* Google Analytics */}
-        <script async src='https://www.googletagmanager.com/gtag/js?id=G-W3V2Z9FW6R' />
-        <script
-            dangerouslySetInnerHTML={{
-                __html: `
-                      window.dataLayer = window.dataLayer || [];
-                      function gtag(){dataLayer.push(arguments);}
-                      gtag('js', new Date());
-                      gtag('config', 'G-W3V2Z9FW6R');
-                  `,
-            }}
-        />
-
         {/* Open Graph / Facebook */}
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://podsmerkami.pl' />
@@ -130,6 +117,10 @@ const Head = () => (
         <meta name='theme-color' content='#ffffff' />
         <link rel='manifest' href='/manifest.json' />
         <link rel='canonical' href='https://podsmerkami.pl' />
+
+        {/* Bootstrap */}
+        <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet' />
+        <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js' />
     </NextHead>
 );
 
