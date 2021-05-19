@@ -21,28 +21,28 @@ export const CONTACT = {
 export const OFFER = {
     name: 'Oferta',
     path: '/offer',
-    subItems: [
-        {
+    subItems: {
+        TEXTS_AND_ARTICLES: {
             name: 'Teksty i Artykuły',
             path: '/teksty-artykuly',
         },
-        {
+        TEXT_CORRECTIONS: {
             name: 'Korekty Tekstów',
             path: '/korekty-tekstow',
         },
-        {
+        ADDITIONAL_SERVICES: {
             name: 'Dodatkowe Usługi',
             path: '/dodatkowe-uslugi',
         },
-        {
+        SOCIAL_MEDIA: {
             name: 'Media Społecznościowe',
             path: '/media-spolecznosciowe',
         },
-        {
-            name: 'Pakiety',
+        PACKAGES: {
+            name: 'Pakiety i Abonamenty',
             path: '/pakiety-abonamenty',
         },
-    ],
+    }
 };
 
 export default [
