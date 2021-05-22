@@ -11,7 +11,6 @@ import {
     FACEBOOK,
     GOOGLE_ANALYTICS_ID,
 } from '../../data/siteInfo';
-import 'bootstrap/dist/css/bootstrap.css';
 
 const Head = ({ name = '' }) => (
     <NextHead>
@@ -106,7 +105,8 @@ const Head = ({ name = '' }) => (
         </script>
 
         {/* Other */}
-        <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+        <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
+        <link rel='icon' href='/favicon.ico' type='image/x-icon' />
         <meta name='msapplication-TileColor' content='#ffffff' />
         <meta name='theme-color' content='#ffffff' />
         <link rel='manifest' href='/manifest.json' />
