@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import ROUTES, { HOME } from '../../data/routes';
 import { debounce } from 'lodash';
+import NextImage from 'next/image';
+import Image from '../Image';
 import { COMPANY_NAME, LOGO_SVG } from '../../data/siteInfo';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
@@ -56,9 +58,11 @@ const Navigation = ({ currentPath = '/' }) => {
     }, []);
 
     return (
-        <Navbar sticky='top' expand='lg' className='mb-5' ref={nav}>
+        <Navbar sticky='top' expand='lg' ref={nav}>
             <Container>
-                <Navbar.Brand href={HOME.path}>{LOGO_SVG || COMPANY_NAME}</Navbar.Brand>
+                <Navbar.Brand href={HOME.path}>
+                    {LOGO_SVG ? <Image src={LOGO_SVG} width='238.86px' height='40px' /> : COMPANY_NAME}
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav' className='justify-content-end'>
                     <Nav>{renderNavItems(currentPath)}</Nav>

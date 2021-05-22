@@ -20,8 +20,12 @@ a:hover {
     left: 0;
     top: 0;
     object-fit: cover;
-    opacity: 0.2;
+    opacity: 0.15;
     filter: grayscale(100%) blur(4px);
+}
+
+.bg-white-70 {
+    background: rgba(255, 255, 255, 0.7) !important;
 }
 
 .pageTitleShadow {
@@ -32,7 +36,7 @@ a:hover {
     letter-spacing: 0.3rem;
 }
 
-.min-vh-80{
+.min-vh-80 {
     min-height: 80vh;
 }
 

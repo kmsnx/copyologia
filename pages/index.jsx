@@ -42,7 +42,7 @@ const Home = () => (
         <Head />
         <Navigation currentPath={ROUTE.path} />
         <main className='container min-vh-80'>
-            <Image src='/img/landing.jpg' externalClassName='fullscreenBackground' />
+            <Image src='/img/index.jpg' externalClassName='fullscreenBackground' />
             <Row className='px-3 justify-content-end'>
                 <h1 className='text-uppercase fancyLetterSpacing'>
                     <strong>{COMPANY_NAME}</strong>
@@ -52,15 +52,15 @@ const Home = () => (
                 <h3 className='font-weight-light w-lg-50 text-right'>{DESCRIPTION}</h3>
             </Row>
             <Row className='my-5'>
-                {cards.map((item) => (
-                    <Col xs={12} md={6} lg={3} className='my-2 text-center'>
+                {cards.map(({href, name }) => (
+                    <Col xs={12} md={6} lg={3} className='my-2 text-center' key={name}>
                         <a
-                            href={item.href}
+                            href={href}
                             style={navCardStyle}
                             className='nav-link rounded shadow-lg text-dark text-center mx-auto'
                         >
                             <span className='fs-3 font-weight-light' style={navCardTextStyle}>
-                                {item.name}
+                                {name}
                             </span>
                         </a>
                     </Col>

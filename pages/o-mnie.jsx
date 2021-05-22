@@ -10,11 +10,13 @@ const About = () => (
         <Head />
         <Navigation currentPath={ROUTE.path} />
         <main className='container min-vh-80'>
-            <Image src='/img/o-mnie.jpg' externalClassName='fullscreenBackground' />
+            <Image src={`/img${ROUTE.path}.jpg`} externalClassName='fullscreenBackground' />
             <Row className='px-3 justify-content-center'>
-                <h1 className='font-weight-bold text-uppercase fancyLetterSpacing'>{ROUTE.name}</h1>
+                <h1 className='text-uppercase fancyLetterSpacing'>
+                    <strong>{ROUTE.name}</strong>
+                </h1>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
                     <p className='text-justify'>
                         Spodziewasz się, że za chwilę będę składać wyświechtane obietnice o najwyższej jakości, puste
@@ -33,9 +35,9 @@ const About = () => (
                     </p>
                 </Col>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
-                    <p>
+                    <p className='text-justify'>
                         Jako copywriter kieruję się pewnymi zasadami i regułami, które w skrócie można zdefiniować jako
                         <strong> KUNSZT</strong>:
                     </p>
@@ -72,19 +74,22 @@ const About = () => (
                     </ul>
                 </Col>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
-                    Misją mnie jako copywritera jest przygotowanie treści, które będą trafną odpowiedzią na Twoje
-                    potrzeby. Chcę, by Twoje produkty same się sprzedawały, Twoja strona internetowa generowała wiele
-                    unikalnych odsłon, a Twoje blogi czytało się z przyjemnością. Choć nie zawsze jest to łatwe zadanie,
-                    to zawsze znajdę sposób, by przygotować dla Ciebie ciekawe i wartościowe treści. Wizja osiągania
-                    celu to przede wszystkim współpraca: podczas gdy Ty opowiadasz mi o swojej branży i firmie, ja
-                    aktywnie słucham, analizuję i dopytuję, badając potrzeby i wyszukując odpowiednie rozwiązania.
-                    Poszukuję tych środków, które przybliżą nas do celu i sugeruję rozwiązania, pamiętając jednak, że
-                    ostateczne zdanie należy do Ciebie. Nie zakładam jednej, uniwersalnej strategii, bo wiem, że
-                    indywidualny i niepowtarzalny charakter podmiotów nie pozwala ustalić ścisłych ram postępowania.
-                    Zamiast utartych ścieżek i powtarzalnych schematów, stawiam na otwarty umysł, chęć zrozumienia
-                    drugiej osoby i wykonania powierzonej mi pracy w sposób możliwie kreatywny i profesjonalny.
+                    <p className='text-justify'>
+                        Misją mnie jako copywritera jest przygotowanie treści, które będą trafną odpowiedzią na Twoje
+                        potrzeby. Chcę, by Twoje produkty same się sprzedawały, Twoja strona internetowa generowała
+                        wiele unikalnych odsłon, a Twoje blogi czytało się z przyjemnością. Choć nie zawsze jest to
+                        łatwe zadanie, to zawsze znajdę sposób, by przygotować dla Ciebie ciekawe i wartościowe treści.
+                        Wizja osiągania celu to przede wszystkim współpraca: podczas gdy Ty opowiadasz mi o swojej
+                        branży i firmie, ja aktywnie słucham, analizuję i dopytuję, badając potrzeby i wyszukując
+                        odpowiednie rozwiązania. Poszukuję tych środków, które przybliżą nas do celu i sugeruję
+                        rozwiązania, pamiętając jednak, że ostateczne zdanie należy do Ciebie. Nie zakładam jednej,
+                        uniwersalnej strategii, bo wiem, że indywidualny i niepowtarzalny charakter podmiotów nie
+                        pozwala ustalić ścisłych ram postępowania. Zamiast utartych ścieżek i powtarzalnych schematów,
+                        stawiam na otwarty umysł, chęć zrozumienia drugiej osoby i wykonania powierzonej mi pracy w
+                        sposób możliwie kreatywny i profesjonalny.
+                    </p>
                 </Col>
             </Row>
         </main>
