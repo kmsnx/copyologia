@@ -1,0 +1,7 @@
+/*
+  Content-Security-Policy: default-src 'self'; base-uri 'none'; form-action 'self'; script-src 'unsafe-inline' https://podsmerkami.pl https://www.googletagmanager.com https://*.cloudfront.net; style-src 'unsafe-inline' https://*.cloudfront.net; font-src https://fonts.googleapis.com; img-src 'self' data: www.googletagmanager.com; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; battery 'none'; camera 'none'; display-capture 'none'; document-domain 'none'; encrypted-media 'none'; execution-while-not-rendered 'none'; execution-while-out-of-viewport 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; layout-animations 'none'; legacy-image-formats 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; navigation-override 'none'; oversized-images 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; sync-xhr 'none'; usb 'none'; vr 'none'; screen-wake-lock 'none'; web-share 'none'; xr-spatial-tracking 'none';

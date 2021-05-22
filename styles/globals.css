@@ -4,11 +4,12 @@ body {
     margin: 0;
     min-width: 100vw;
     min-height: 100vh;
+    font-family: 'Nunito', Verdana, Geneva, Tahoma, Helvetica, Arial, sans-serif;
 }
 
 a:hover {
     opacity: 0.8;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .fullscreenBackground {
@@ -20,18 +21,31 @@ a:hover {
     top: 0;
     object-fit: cover;
     opacity: 0.2;
+    filter: grayscale(100%) blur(4px);
 }
 
 .pageTitleShadow {
     text-shadow: 0 1rem 3rem rgba(0, 123, 255, 0.5) !important;
 }
 
-.fancyLetterSpacing{
+.fancyLetterSpacing {
     letter-spacing: 0.3rem;
 }
 
+.min-vh-80{
+    min-height: 80vh;
+}
+
+/* DESKTOP */
 @media (min-width: 992px) {
     .w-lg-50 {
         width: 50% !important;
+    }
+}
+
+/* MOBILE */
+@media (min-width: 576px) {
+    .w-sm-100 {
+        width: 100% !important;
     }
 }

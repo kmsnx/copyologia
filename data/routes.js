@@ -26,6 +26,10 @@ export const OFFER = {
             name: 'Teksty i Artykuły',
             path: '/teksty-artykuly',
         },
+        PRODUCT_DESCRIPTIONS: {
+            name: 'Opisy Produktów',
+            path: '/opisy-produktow',
+        },
         TEXT_CORRECTIONS: {
             name: 'Korekty Tekstów',
             path: '/korekty-tekstow',
@@ -42,7 +46,7 @@ export const OFFER = {
             name: 'Pakiety i Abonamenty',
             path: '/pakiety-abonamenty',
         },
-    }
+    },
 };
 
 export default [

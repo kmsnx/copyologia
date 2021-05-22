@@ -1,25 +1,16 @@
-import Image from './components/Image';
-import Head from './components/Head';
-import Navigation from './components/Navigation';
-import { HOME as ROUTE, ABOUT, FAQ, OFFER } from './data/routes';
-import { COMPANY_NAME, DESCRIPTION } from './data/siteInfo';
+import Image from '../components/Image';
+import Head from '../components/Head';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+import { HOME as ROUTE, OFFER } from '../data/routes';
+import { COMPANY_NAME, DESCRIPTION } from '../data/siteInfo';
+import { Col, Row } from 'react-bootstrap';
 
-const lottieStyle = {
-    position: 'absolute',
-    zIndex: -1,
-    top: 0,
-    bottom: 0,
-    left: 0,
-    right: 0,
-    margin: 'auto',
-};
 const navCardStyle = {
     background: 'rgba(255,255,255, 0.4)',
-    margin: 'auto',
-    verticalAlign: 'middle',
-    width: '200px',
+    width: '100%',
     height: '200px',
-    display: 'table'
+    display: 'table',
 };
 
 const navCardTextStyle = {
@@ -27,65 +18,57 @@ const navCardTextStyle = {
     verticalAlign: 'middle',
 };
 
-const Home = () => {
-    return (
-        <>
-            <Head />
-            <Navigation currentPath={ROUTE.path} />
-            <main className='container'>
-                <Image src='/img/landing.jpg' externalClassName='fullscreenBackground' />
-                <div className='row my-5 justify-content-end'>
-                    <h1 className='text-end text-uppercase text-primary fw-bolder fs-1'>{COMPANY_NAME}</h1>
-                    <h3 className='w-lg-50 text-end fw-light font-monospace fs-3'>{DESCRIPTION}</h3>
-                </div>
-                <div className='row mt-5 justify-content-between'>
-                    <div className='col-6 col-lg-3 my-2'>
-                        <a
-                            href={ABOUT.path}
-                            className='nav-link rounded shadow-lg text-dark text-center'
-                            style={navCardStyle}
-                        >
-                            <span className='fs-3 fw-lighter' style={navCardTextStyle}>
-                                {ABOUT.name}
-                            </span>
-                        </a>
-                    </div>
+const cards = [
+    {
+        href: OFFER.subItems.TEXTS_AND_ARTICLES.path,
+        name: OFFER.subItems.TEXTS_AND_ARTICLES.name,
+    },
+    {
+        href: OFFER.subItems.PRODUCT_DESCRIPTIONS.path,
+        name: OFFER.subItems.PRODUCT_DESCRIPTIONS.name,
+    },
+    {
+        href: OFFER.subItems.TEXT_CORRECTIONS.path,
+        name: OFFER.subItems.TEXT_CORRECTIONS.name,
+    },
+    {
+        href: OFFER.subItems.PACKAGES.path,
+        name: OFFER.subItems.PACKAGES.name,
+    },
+];
 
-                    <div className='col-6 col-lg-3 my-2'>
-                        <a className='nav-link rounded shadow-lg text-dark text-center' style={navCardStyle}>
-                            <span className='fs-3 fw-lighter' style={navCardTextStyle}>
-                                ?
-                            </span>
-                        </a>
-                    </div>
-
-                    <div className='col-6 col-lg-3 my-2'>
+const Home = () => (
+    <>
+        <Head />
+        <Navigation currentPath={ROUTE.path} />
+        <main className='container min-vh-80'>
+            <Image src='/img/landing.jpg' externalClassName='fullscreenBackground' />
+            <Row className='px-3 justify-content-end'>
+                <h1 className='text-uppercase fancyLetterSpacing'>
+                    <strong>{COMPANY_NAME}</strong>
+                </h1>
+            </Row>
+            <Row className='px-3 justify-content-end'>
+                <h3 className='font-weight-light w-lg-50 text-right'>{DESCRIPTION}</h3>
+            </Row>
+            <Row className='my-5'>
+                {cards.map((item) => (
+                    <Col xs={12} md={6} lg={3} className='my-2 text-center'>
                         <a
-                            href={OFFER.subItems.PACKAGES.path}
-                            className='nav-link rounded shadow-lg text-dark text-center'
+                            href={item.href}
                             style={navCardStyle}
+                            className='nav-link rounded shadow-lg text-dark text-center mx-auto'
                         >
-                            <span className='fs-3 fw-lighter' style={navCardTextStyle}>
-                                {OFFER.subItems.PACKAGES.name}
+                            <span className='fs-3 font-weight-light' style={navCardTextStyle}>
+                                {item.name}
                             </span>
                         </a>
-                    </div>
-
-                    <div className='col-6 col-lg-3 my-2'>
-                        <a
-                            href={FAQ.path}
-                            className='nav-link rounded shadow-lg text-dark text-center'
-                            style={navCardStyle}
-                        >
-                            <span className='fs-3 fw-lighter' style={navCardTextStyle}>
-                                {FAQ.name}
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </main>
-        </>
-    );
-};
+                    </Col>
+                ))}
+            </Row>
+        </main>
+        <Footer externalClassName='text-dark' />
+    </>
+);
 
 export default Home;

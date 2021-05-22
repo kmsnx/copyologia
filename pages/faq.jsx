@@ -1,6 +1,6 @@
-import Head from './components/Head';
-import Navigation from './components/Navigation';
-import { FAQ as ROUTE } from './data/routes';
+import Head from '../components/Head';
+import Navigation from '../components/Navigation';
+import { FAQ as ROUTE } from '../data/routes';
 
 const FAQ = () => (
     <>
