@@ -18,7 +18,7 @@ const ProductDescriptions = () => (
                     <strong>{ROUTE.name}</strong>
                 </h1>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
                     <p className='text-justify'>
                         Rynek e-commerce systematycznie rozwija się i zyskuje na wartości, co daje dwie niezwykle

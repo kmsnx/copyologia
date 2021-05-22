@@ -18,7 +18,7 @@ const TextsAndArticles = () => (
                     <strong>{ROUTE.name}</strong>
                 </h1>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
                     <p className='text-justify'>
                         Podstawowy zakres działania copywritera to tworzenie szeroko rozumianych treści pisanych i
@@ -28,7 +28,10 @@ const TextsAndArticles = () => (
                         branże techniczne. Biorąc pod uwagę osobiste zainteresowania i doświadczenie, najlepiej czuję
                         się w takich tematach, jak ekonomia, finanse, prawo, sport, motoryzacja, kulinaria oraz
                         podróżnictwo. Nie zmienia to faktu, że zamawiając tekst z dowolnej innej niszy, otrzymasz
-                        profesjonalnie przygotowaną i ciekawą w odbiorze treść.
+                        profesjonalnie przygotowany i ciekawy w odbiorze dokument. Kwestię finalnej długości treści
+                        także pozostawiam do uzgodnienia; stworzę zarówno zwięzły wpis, jak również rozbudowany artykuł.
+                        Zarówno w długich, jak i krótkich tekstach uwzględniam słowa kluczowe dedykowane pod SEO, które
+                        w sposób naturalny wplatam w zdania.
                     </p>
                 </Col>
             </Row>

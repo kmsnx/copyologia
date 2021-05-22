@@ -18,7 +18,7 @@ const TextCorrections = () => (
                     <strong>{ROUTE.name}</strong>
                 </h1>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
                     <p className='text-justify'>
                         Seneka Starszy zwykł mawiać, że mylenie się jest rzeczą ludzką. Trudno się z tym nie zgodzić,

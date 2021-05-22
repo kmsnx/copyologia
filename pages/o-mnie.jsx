@@ -2,7 +2,7 @@ import Head from '../components/Head';
 import Image from '../components/Image';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
-import { ABOUT as ROUTE } from '../data/routes';
+import { ABOUT as ROUTE, CONTACT, FAQ } from '../data/routes';
 import { Row, Col } from 'react-bootstrap';
 
 const About = () => (
@@ -88,7 +88,16 @@ const About = () => (
                         uniwersalnej strategii, bo wiem, że indywidualny i niepowtarzalny charakter podmiotów nie
                         pozwala ustalić ścisłych ram postępowania. Zamiast utartych ścieżek i powtarzalnych schematów,
                         stawiam na otwarty umysł, chęć zrozumienia drugiej osoby i wykonania powierzonej mi pracy w
-                        sposób możliwie kreatywny i profesjonalny.
+                        sposób możliwie kreatywny i profesjonalny. Czego dokładnie możesz ode mnie oczekiwać? Koniecznie
+                        sprawdź zawartość zakładki “Oferta”, a w przypadku wątpliwości rzuć okiem na{' '}
+                        <a href={FAQ.path} className='text-dark'>
+                            <strong>{FAQ.name}</strong>
+                        </a>
+                        . Pamiętaj, że cały czas jestem do Twojej dyspozycji, a sposoby na porozumienie się ze mną
+                        zostawiam pod hasłem{' '}
+                        <a href={CONTACT.path} className='text-dark'>
+                            <strong>{CONTACT.name}</strong>
+                        </a>
                     </p>
                 </Col>
             </Row>

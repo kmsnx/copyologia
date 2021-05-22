@@ -5,11 +5,11 @@ import Navigation from '../components/Navigation';
 import { FAQ as ROUTE } from '../data/routes';
 import { Row, Col, Accordion, Card } from 'react-bootstrap';
 
-const FAQ = [
+const QA = [
     {
         question: 'Co tak naprawdę robi copywriter?',
         answer:
-            'Pierwotni copywriterzy byli członkami zespołu projektowego, a ich rolą było pisanie tekstów wykorzystywanych w reklamach, materiałach prasowych czy innych formach promocji. Digitalizacja, postęp technologiczny oraz dynamiczny rozwój Internetu na nowo zdefiniował nasz zawód. Współczesny copywriter łączy w sobie wiele czynności: od przeprowadzania researchu (czyli gromadzenia i analizowania danych) przez tworzenie tekstu aż po finalną korektę. Zdarzało mi się słyszeć komentarze, że copywriter “stuka sobie w klawiaturę” lub “klepie teksty maszynowo” - to zaledwie ułamek faktycznej pracy, którą wykonuję.',
+            'Pierwotni copywriterzy byli członkami zespołu projektowego, a ich rolą było pisanie tekstów wykorzystywanych w reklamach, materiałach prasowych czy innych formach promocji. Digitalizacja, postęp technologiczny oraz dynamiczny rozwój Internetu na nowo zdefiniował nasz zawód. Współczesny copywriter łączy w sobie wiele czynności: od przeprowadzania researchu (czyli wyszukiwania, gromadzenia i analizowania danych) przez tworzenie tekstu aż po finalną korektę. Zdarzało mi się słyszeć komentarze, że copywriter “stuka sobie w klawiaturę” lub “klepie teksty maszynowo” - to zaledwie ułamek faktycznej pracy, którą wykonuję.',
     },
     {
         question: 'Co to znaczy, że tekst jest zgodny z zasadami SEO?',
@@ -22,14 +22,14 @@ const FAQ = [
                 >
                     <strong>SEO</strong>
                 </a>{' '}
-                to proces optymalizacyjny, który ma za zadanie podnieść Twoją stronę w wynikach wyszukiwania. Jest to o
-                tyle ważne, że w ten sposób możesz wyprzedzić swoją konkurencję i być łatwiej, szybciej i skuteczniej
-                dostrzegalny. Jak każde działanie w internecie, tak i to rządzi się pewnymi regułami, których należy
-                przestrzegać. Zbyt duże nacechowanie tekstu słowami kluczowymi, niedopasowane frazy czy brak
-                jakichkolwiek wyrażeń będzie skutkować nieskutecznym SEO. Analogicznie - nienaturalnie brzmiące frazy
-                lub zbyt częste występowanie tychże słów sprawi, że czytelnik zwyczajnie w świecie zmęczy się tekstem i
-                opuści stronę. Tworząc teksty, dbam o zachowanie optimum SEO i rozsądne wplatanie wyrażeń, dzięki czemu
-                artykuł będzie przyjazny dla czytelnika i wartościowy dla algorytmów.
+                to specjalny proces optymalizacyjny, który ma za zadanie podnieść Twoją stronę w wynikach wyszukiwania.
+                Jest to o tyle ważne, że w ten sposób możesz wyprzedzić swoją konkurencję i być łatwiej, szybciej i
+                skuteczniej dostrzegalny. Jak każde działanie w internecie, tak i to rządzi się pewnymi regułami,
+                których należy przestrzegać. Zbyt duże nacechowanie tekstu słowami kluczowymi, niedopasowane frazy czy
+                brak jakichkolwiek wyrażeń będzie skutkować nieskutecznym SEO. Analogicznie - nienaturalnie brzmiące
+                frazy lub zbyt częste występowanie tychże słów sprawi, że czytelnik zwyczajnie w świecie zmęczy się
+                tekstem i opuści stronę. Tworząc każdy tekst, dbam o zachowanie optimum SEO i rozsądne wplatanie
+                wyrażeń, dzięki czemu artykuł będzie przyjazny dla czytelnika i wartościowy dla algorytmów.
             </p>
         ),
     },
@@ -69,14 +69,13 @@ const FAQ = [
                         pozostaję do dyspozycji pod mailem lub telefonem.
                     </li>
                     <li>
-                        Gotowy tekst przedkładam do akceptacji: jeśli wszystko jest zgodnie z oczekiwaniami,
-                        przechodzimy do rozliczenia, jeżeli pewne elementy Ci nie odpowiadają lub chcesz poprawić,
-                        nanoszę bezpłatną korektę zgodną z Twoimi wytycznymi.
+                        Gotowy tekst wysyłam na skrzynkę mailową do akceptacji: jeśli wszystko jest zgodne z
+                        oczekiwaniami, przechodzimy do rozliczenia, jeżeli pewne elementy Ci nie odpowiadają lub chcesz
+                        poprawić, nanoszę bezpłatną korektę zgodną z Twoimi wytycznymi.
                     </li>
                     <li>
-                        Wystawiam fakturę na wskazane przez Ciebie dane, która płatna jest w ciągu 5 dni roboczych.Po
-                        opłaceniu faktury przekazuję Ci stosowne prawa autorskie, które są niezbędne do publikacji
-                        tekstu.
+                        Wystawiam fakturę na wskazane dane, która płatna jest w ciągu 5 dni roboczych. Po opłaceniu
+                        faktury przekazuję Ci stosowne prawa autorskie, które są niezbędne do publikacji tekstu.
                     </li>
                 </ol>
             </>
@@ -85,12 +84,12 @@ const FAQ = [
     {
         question: 'Czym się różni artykuł od wpisu blogowego lub innego tekstu?',
         answer:
-            'Każdy tekst ma swoje indywidualne cechy i określoną charakterystykę - jedne mają za zadanie przekazywać informacje, inne wywołać określone emocje u odbiorcy, a jeszcze inne zachęcić do pewnej interakcji. Na podstawie finalnego przeznaczenia treści, ustalamy pewną formę realizacji zlecenia: określamy długość tekstu, decydujemy o jego cechach perswazyjnych, konsultujemy formę i język, którego użyjemy. Różnice więc polegają na tym, gdzie ostatecznie stworzony tekst wyląduje i jak on będzie wyglądać; być może będzie to tekst wyświetlany na Twojej stronie www, wpis na bloga firmowego, krótki opis produktu w sklepie internetowym lub reklama radiowa.',
+            'Każdy tekst ma swoje indywidualne cechy i określoną charakterystykę - jedne mają za zadanie przekazywać kluczowe informacje, inne wywołać określone emocje u odbiorcy, a jeszcze inne zachęcić do pewnej interakcji. Na podstawie finalnego przeznaczenia treści, ustalamy pewną formę realizacji zlecenia: określamy długość tekstu, decydujemy o jego cechach perswazyjnych, konsultujemy formę i język, którego użyjemy. Różnice więc polegają na tym, gdzie ostatecznie stworzony tekst wyląduje i jak on będzie wyglądać; być może będzie to tekst wyświetlany na Twojej stronie www, wpis na bloga firmowego, krótki opis produktu w sklepie internetowym lub reklama radiowa. ',
     },
     {
         question: 'Co oznacza skrót zzs i zbs?',
         answer:
-            'ZZS to akronim słów “znaki ze spacjami” - jest to podstawowy miernik długości tekstu wynikowego i przelicznik służący do rozliczenia należności. Liczone jest każde stuknięcie w klawiaturę, w tym także tworzenie spacji czy enterów. ZBS z kolei to skrót od “znaki bez spacji” - stosunkowo rzadko używana jednostka, która rozlicza copywritera wyłącznie za napisane litery, bez uwzględnienia znaku “spacja i “enter”. Stawki za moje usługi podaję za każdy rozpoczęty 1000 zzs, a 1000 zzs to około 35-40% kartki A4. Poniższa odpowiedź na pytanie liczy sobie dokładnie 585 znaków ze spacjami.',
+            'ZZS to akronim słów “znaki ze spacjami” - jest to podstawowy miernik długości tekstu wynikowego i przelicznik służący do rozliczenia należności. Liczone jest każde stuknięcie w klawiaturę, w tym także tworzenie spacji czy enterów. Skrót ZBS z kolei oznacza “znaki bez spacji” - stosunkowo rzadko używana jednostka, która rozlicza copywritera wyłącznie za napisane litery, bez uwzględnienia znaku “spacja i “enter”. Stawki za moje usługi podaję za każdy rozpoczęty tysiąc znaków ze spacjami, a 1000 zzs to około 35-40% kartki A4. Poniższa odpowiedź na pytanie liczy sobie dokładnie 605 znaków ze spacjami.',
     },
     {
         question: 'Czy rozliczasz swój tekst na podstawie napisanych słów?',
@@ -100,7 +99,7 @@ const FAQ = [
     {
         question: 'Czy obsługujesz także osoby fizyczne?',
         answer:
-            'Oczywiście; Twoja osobowość prawna (lub jej brak) nie ma dla mnie znaczenia - współpracuję zarówno z firmami, jak i klientami indywidualnymi. ',
+            'Oczywiście; Twoja osobowość prawna (lub jej brak) nie ma dla mnie znaczenia - współpracuję zarówno z firmami, jak i klientami indywidualnymi.',
     },
     {
         question: 'Czy napiszesz za mnie pracę dyplomową?',
@@ -155,12 +154,12 @@ const FAQ = [
     {
         question: 'Czym jest usługa EXPRESS?',
         answer:
-            'Ta usługa skierowana jest do osób, które natychmiast potrzebują danego tekstu, a każda minuta jest na wagę złota. Zakup pakietu EXPRESS to gwarancja zrealizowania tekstu w ciągu 6 godzin od ustalenia warunków współpracy. Usługa ta jest dostępna dla tekstów do 6.000 zzs.',
+            'Ta usługa skierowana jest do osób, które natychmiast potrzebują tekstu, a każda minuta jest na wagę złota. Zakup pakietu EXPRESS to gwarancja zrealizowania tekstu w ciągu 6 godzin od ustalenia warunków współpracy. Usługa ta jest dostępna dla tekstów do 6.000 zzs.',
     },
     {
         question: 'Do tekstów potrzebuję grafik i obrazków - czy jesteś w stanie mi pomóc?',
         answer:
-            'Rozumiem, że szata graficzna może być w wielu przypadkach istotnym aspektem i ubogaceniem tekstu. Ze swojej strony mogę zaproponować dodatki w postaci zdjęć stockowych z publicznych baz danych, takich jak Pexels czy Pixabay. Jeśli jednak oczekujesz naprawdę ciekawej i jakościowej grafiki, koniecznie sprawdź portfolio mojego dobrego znajomego. Więcej informacji po skontaktowaniu się ze mną.',
+            'Rozumiem, że szata graficzna może być w wielu przypadkach niezwykle istotnym aspektem i ubogaceniem tekstu. Ze swojej strony mogę zaproponować dodatki w postaci zdjęć stockowych z publicznych baz danych, takich jak Pexels czy Pixabay. Jeśli jednak oczekujesz naprawdę ciekawej i jakościowej grafiki, koniecznie sprawdź portfolio mojego dobrego znajomego. Jeśli Ci się spodoba, skontaktuj się ze mną - z pewnością otrzymasz preferencyjne warunki współpracy z grafikiem.',
     },
     {
         question: 'Nie widzę cen na Twojej stronie - gdzie znajdę cennik?',
@@ -201,7 +200,7 @@ const FAQ = [
     },
 ];
 
-const ProductDescriptions = () => (
+const FAQ = () => (
     <>
         <Head />
         <Navigation currentPath={ROUTE.path} />
@@ -212,7 +211,7 @@ const ProductDescriptions = () => (
                     <strong>{ROUTE.name}</strong>
                 </h1>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
                     <p className='text-justify'>
                         Jesteś tu, bo najprawdopodobniej masz pytanie, pojawiły się wątpliwości lub po prostu
@@ -224,18 +223,18 @@ const ProductDescriptions = () => (
                 </Col>
             </Row>
 
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
                     <Accordion defaultActiveKey='0'>
-                        {FAQ.map(({ question, answer }, index) => (
+                        {QA.map(({ question, answer }) => (
                             <Card style={{ cursor: 'pointer' }} className='bg-white-70' key={question}>
-                                <Accordion.Toggle as={Card.Header} eventKey={`${index}`} className='text-dark'>
+                                <Accordion.Toggle as={Card.Header} eventKey={question} className='text-dark'>
                                     <h3>
                                         <strong>{question}</strong>
                                     </h3>
                                 </Accordion.Toggle>
-                                <Accordion.Collapse eventKey={`${index}`}>
-                                    <Card.Body>{typeof answer === 'string' ? <p>{answer}</p> : { answer }}</Card.Body>
+                                <Accordion.Collapse eventKey={question}>
+                                    <Card.Body>{typeof answer === 'string' ? <p>{answer}</p> : answer}</Card.Body>
                                 </Accordion.Collapse>
                             </Card>
                         ))}
@@ -247,4 +246,4 @@ const ProductDescriptions = () => (
     </>
 );
 
-export default ProductDescriptions;
+export default FAQ;

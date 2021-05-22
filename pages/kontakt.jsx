@@ -17,7 +17,7 @@ const Contact = () => (
                     <strong>{ROUTE.name}</strong>
                 </h1>
             </Row>
-            <Row>
+            <Row className='my-5'>
                 <Col>
                     <p>
                         Skontaktuj się ze mną - porozmawiamy o Twoich potrzebach i oczekiwaniach. Pozostaję do Twojej

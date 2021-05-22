@@ -42,6 +42,10 @@ const Head = ({ name = '' }) => (
                       function gtag(){dataLayer.push(arguments);}
                       gtag('js', new Date());
                       gtag('config', '${GOOGLE_ANALYTICS_ID}');
+                      gtag('consent', 'default', {
+                        'ad_storage': 'denied',
+                        'analytics_storage': 'denied'
+                      });
                   `,
                     }}
                 />

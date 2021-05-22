@@ -27,4 +27,4 @@ export const CONTACT = {
 export const TWITTER = '';
 export const FACEBOOK = '';
 export const IMAGE_URL = '';
-export const GOOGLE_ANALYTICS_ID = '';
+export const GOOGLE_ANALYTICS_ID = 'G-K07N167X0H';

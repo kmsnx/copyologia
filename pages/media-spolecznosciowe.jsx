@@ -18,17 +18,20 @@ const SocialMedia = () => (
                     <strong>{ROUTE.name}</strong>
                 </h1>
             </Row>
-            <Row className='my-4'>
+            <Row className='my-5'>
                 <Col>
                     <p className='text-justify'>
-                        Podstawowy zakres działania copywritera to tworzenie szeroko rozumianych treści pisanych i
-                        operowanie słowem. Artykuły branżowe, wpisy na bloga firmowego, teksty reklamowe, a nawet
-                        uroczyste mowy czy felietony tematyczne - wszystkie powyższe treści to efekty mojej pracy.
-                        Podejmuję się zagadnień z rozmaitych dziedzin: od lekkiej tematyki lifestyle przez zaawansowane
-                        branże techniczne. Biorąc pod uwagę osobiste zainteresowania i doświadczenie, najlepiej czuję
-                        się w takich tematach, jak ekonomia, finanse, prawo, sport, motoryzacja, kulinaria oraz
-                        podróżnictwo. Nie zmienia to faktu, że zamawiając tekst z dowolnej innej niszy, otrzymasz
-                        profesjonalnie przygotowaną i ciekawą w odbiorze treść.
+                        Wiele osób nie wyobraża sobie funkcjonowania bez mediów społecznościowych. Jedni używają
+                        aplikacji do komunikowania się ze znajomymi, inni do przekazywania wiadomości z otoczenia, a
+                        jeszcze inni do przeglądania memów. Co prawda, zdjęcia śmiesznych kotów i tworzenie zabawnych
+                        obrazków to nie moja nisza, ale za to redagowanie i tworzenie postów na social media - już tak.
+                        Oferuję swoje usługi copywriterskie w zakresie czterech kluczowych platform: Twittera,
+                        Facebooka, Instagrama oraz LinkedIn. Doskonale zdaję sobie sprawę z tego, że prowadząc firmę
+                        masz setki innych spraw na głowie, dlatego odciążę Cię z części obowiązków. Pomogę w doraźnym
+                        dodawaniu postów “na już”, zaplanuję posty na określony okres rozliczeniowy, jak również
+                        zaprojektuję dla Ciebie całą strategię komunikacyjną. Niezależnie od tego, czy chcesz
+                        poinformować swoich klientów o zbliżającej się promocji, czy po prostu chcesz skrócić dystans z
+                        odbiorcami - chętnie Cię wesprę w dążeniu do Twojego celu.
                     </p>
                 </Col>
             </Row>
