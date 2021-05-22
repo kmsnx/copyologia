@@ -26,5 +26,5 @@ export const CONTACT = {
 
 export const TWITTER = '';
 export const FACEBOOK = '';
-export const IMAGE_URL = '';
+export const IMAGE_URL = `${SITE_URL}/svg/logo.svg`;
 export const GOOGLE_ANALYTICS_ID = 'G-K07N167X0H';

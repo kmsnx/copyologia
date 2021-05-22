@@ -49,7 +49,7 @@ const Home = () => (
                 </h1>
             </Row>
             <Row className='px-3 justify-content-end'>
-                <h3 className='font-weight-light w-lg-50 text-right'>{DESCRIPTION}</h3>
+                <h2 className='font-weight-light w-lg-50 text-right'>{DESCRIPTION}</h2>
             </Row>
             <Row className='my-5'>
                 {cards.map(({href, name }) => (

@@ -70,23 +70,23 @@ const Head = ({ name = '' }) => (
             {`{
                 "@context": "https://schema.org",
                 "@type": "ProfessionalService",
-                "name": ${COMPANY_NAME},
-                "image": ${IMAGE_URL},
-                "@id": ${SITE_URL},
-                "url": ${SITE_URL},
-                "telephone": ${CONTACT.PHONE},
+                "name": "${COMPANY_NAME}",
+                "image": "${IMAGE_URL}",
+                "@id": "${SITE_URL}",
+                "url": "${SITE_URL}",
+                "telephone": "${CONTACT.PHONE}",
                 "priceRange": "$",
                 "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": ${CONTACT.STREET},
-                    "addressLocality": ${CONTACT.CITY},
-                    "postalCode": ${CONTACT.ZIP},
+                    "streetAddress": "${CONTACT.STREET}",
+                    "addressLocality": "${CONTACT.CITY}",
+                    "postalCode": "${CONTACT.ZIP}",
                     "addressCountry": "PL"
                 },
                 "geo": {
                     "@type": "GeoCoordinates",
-                    "latitude": ${CONTACT.LATITUDE},
-                    "longitude": ${CONTACT.LONGITUDE}
+                    "latitude": "${CONTACT.LATITUDE}",
+                    "longitude": "${CONTACT.LONGITUDE}"
                 },
                 "openingHoursSpecification": {
                     "@type": "OpeningHoursSpecification",
@@ -97,10 +97,9 @@ const Head = ({ name = '' }) => (
                         "Thursday",
                         "Friday"
                     ],
-                    "opens": ${CONTACT.OPEN_HOURS_START},
-                    "closes": ${CONTACT.OPEN_HOURS_CLOSE}
-                },
-                "sameAs": ${FACEBOOK}
+                    "opens": "${CONTACT.OPEN_HOURS_START}",
+                    "closes": "${CONTACT.OPEN_HOURS_CLOSE}"
+                }
             }`}
         </script>
 
