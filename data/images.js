@@ -6,13 +6,16 @@ import {
 const SVG_DIR = '/svg';
 const IMG_DIR = '/img';
 const JPG_EXT = '.jpg';
+const SVG_EXT = '.svg';
+
+const LOGO_FILEPATH = `${SVG_DIR}/logo${SVG_EXT}`;
 
 export const SHARE_IMAGE = {
-  src: `${SITE_URL}${SVG_DIR}/logo.svg`,
+  src: `${SITE_URL}${LOGO_FILEPATH}`,
 };
 
 export const LOGO = {
-  src: '/svg/logo.svg',
+  src: LOGO_FILEPATH,
   alt: `Logo ${TITLE}`,
 };
 

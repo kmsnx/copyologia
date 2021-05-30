@@ -30,7 +30,7 @@ const Contact = () => (
       </Row>
       <Row className="my-5">
         <Col xs={12} lg={6} className="my-5">
-          <address vocab="http://schema.org/" typeof="PostalAddress">
+          <address vocab="https://schema.org/" typeof="PostalAddress">
             <strong property="name" className="fs-3 font-weight-bold text-dark">
               {CONTACT.COMPANY_NAME}
             </strong>
