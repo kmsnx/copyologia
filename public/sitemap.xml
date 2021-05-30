@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://hardcore-roentgen-9554bb.netlify.app/</loc>
+        <loc>https://copyologia.pl/</loc>
         <lastmod>2021-05-22T22:28:33+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
         <loc>
-https://hardcore-roentgen-9554bb.netlify.app/o-mnie
+https://copyologia.pl/o-mnie
         </loc>
         <lastmod>2021-05-22T22:28:33+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://hardcore-roentgen-9554bb.netlify.app/faq</loc>
+        <loc>https://copyologia.pl/faq</loc>
         <lastmod>2021-05-22T22:28:33+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>
-https://hardcore-roentgen-9554bb.netlify.app/kontakt
-        </loc>
-        <lastmod>2021-05-22T22:28:33+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>
-https://hardcore-roentgen-9554bb.netlify.app/teksty-artykuly
+https://copyologia.pl/kontakt
         </loc>
         <lastmod>2021-05-22T22:28:33+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>
-https://hardcore-roentgen-9554bb.netlify.app/opisy-produktow
+https://copyologia.pl/teksty-artykuly
         </loc>
         <lastmod>2021-05-22T22:28:33+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>
-https://hardcore-roentgen-9554bb.netlify.app/korekty-tekstow
+https://copyologia.pl/opisy-produktow
         </loc>
         <lastmod>2021-05-22T22:28:33+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>
-https://hardcore-roentgen-9554bb.netlify.app/pakiety-abonamenty
+https://copyologia.pl/korekty-tekstow
+        </loc>
+        <lastmod>2021-05-22T22:28:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>
+https://copyologia.pl/pakiety-abonamenty
         </loc>
         <lastmod>2021-05-22T22:28:33+00:00</lastmod>
         <priority>0.80</priority>

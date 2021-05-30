@@ -1,16 +1,21 @@
 {
-    "name": "Pod Smerkami - Szklarska Poręba | Domki, Pokoje, Nocleg",
-    "short_name": "Pod Smerkami - Szklarska Poręba",
-    "description": "Spotkajmy się w Pod Smerkami - Szklarska Poręba. W naszej ofercie znajdziesz domki, pokoje, nocleg, liczne atrakcje i wiele więcej.",
+    "name": "Copyologia - skuteczny copywriting dla wymagających",
+    "short_name": "Copyologia - skuteczny copywriting",
+    "description": "Copyologia to miejsce, w którym znajdziesz wartościowe teksty. Kreatywne pisanie zwiększające sprzedaż Twojej firmy.",
     "theme_color": "#000000",
     "background_color": "#000000",
     "display": "standalone",
     "lang": "pl-PL",
     "orientation": "portrait",
-    "start_url": "https://podsmerkami.pl",
+    "start_url": "https://copyologia.pl",
     "categories": [
-        "travel"
+        "business"
     ],
     "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+        }
     ]
 }
