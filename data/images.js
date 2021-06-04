@@ -8,7 +8,7 @@ const IMG_DIR = '/img';
 const JPG_EXT = '.jpg';
 const SVG_EXT = '.svg';
 
-const LOGO_FILEPATH = `${SVG_DIR}/logo${SVG_EXT}`;
+const LOGO_FILEPATH = `${SVG_DIR}/copyologia-logo${SVG_EXT}`;
 
 export const SHARE_IMAGE = {
   src: `${SITE_URL}${LOGO_FILEPATH}`,
