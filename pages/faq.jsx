@@ -209,7 +209,7 @@ const QA = [
   {
     question: 'Mam uwagi co do tekstu, który dla mnie napisałeś. Co mam zrobić?',
     answer:
-      'Jeśli pojawiły się jakiekolwiek zastrzeżenia, skontaktuj się ze mną mailowo lub telefonicznie; im szybciej zgłosisz uwagi, tym szybciej naniosę poprawki. Pamiętaj, że po wykonaniu tekstu przysługuje Ci tzw. okres acceptu, czyli wcześniej wyznaczony przedział czasowy, w którym możesz zgłaszać prośby o zmiany.',
+      'Jeśli pojawiły się jakiekolwiek zastrzeżenia, skontaktuj się ze mną mailowo lub telefonicznie; im szybciej zgłosisz uwagi, tym szybciej naniosę poprawki. Pamiętaj, że po wykonaniu tekstu przysługuje Ci tzw. okres acceptu, czyli przedział siedmiu dni kalendarzowych, w którym możesz dwukrotnie zgłosić prośby o zmiany.',
   },
   {
     question:
