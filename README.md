@@ -1,0 +1,1 @@
+# https://copyologia.pl
